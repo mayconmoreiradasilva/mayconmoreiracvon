@@ -1,0 +1,161 @@
+/*Essa é a folha de estilos do site. Como eu formatei boa parte das seções do site como tabelas,  criei ID's referentes a cada seção para a edição no CSS*/
+
+/*Cor de fundo da página em geral*/
+body {
+    background-color: #212120;
+}
+
+/*A seguir temos a estilização do menu de navegação que fica fixado na parte superior da tela*/
+li {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline;
+    text-align: center;
+    font-family: Verdana;
+    text-shadow: #A18635;
+}
+
+ul {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: black;  
+}
+
+/*Estilização dos links do menu de navegação*/
+a:link {color:#D0A933; text-decoration: none; font-family: Arial;}
+a:visited {color: #A18635}
+a:hover {color: #F6B800;}
+
+/*Aqui optei pela estilização de um titulo padronizado no h1, ele se repete diversas vezes ao longo a página*/
+h1 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: #F6B800;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.paragrafo {
+    font-family: Verdana;
+    text-align: justify;
+    background-color: #D0A933;
+    color: #212120;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+/*Minha foto na primeira parte do site*/
+#foto1 {
+    background-color: #D0A933;
+    border-radius: 100%;
+}
+
+td {
+    width: 33%;
+    height: auto;
+}
+
+/*Bloco da seção SOBRE MIM sobre meus HOBBIES*/
+#tabela_2 {
+    background-color: #D0A933;
+    color: #212120;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    td {
+        width: 25%;
+        text-align: center;
+        font-family: Verdana;
+        height: auto;
+    }
+}
+
+/*Último bloco dentro da seção SOBRE MIM*/
+#tabela_3 {
+    width: 100%;
+    font-family: Verdana;
+    text-align: justify;
+    background-color: #D0A933;
+    color: #212120;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    td {
+        width: 50%;
+        height: auto;
+    }
+}
+
+/*Foto da estrada na seção SOBRE MIM*/
+#foto2 {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+}
+
+/*Seção de formação acadêmica*/
+#tabela_4 {
+    width: 100%;
+    text-align: left;
+    color: #F6B800;
+    font-family: Verdana;
+    img {
+        border-radius: 10%;
+        margin-left: 25%;
+    }
+}
+/*Seção de CONTATO*/
+#tabela_5 {
+    width: 100%;
+    background-color: #D0A933;
+    color: #212120;
+    text-align: center;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    img {
+        width: 10%;
+    }
+}
+
+/*Essa é a tabela da seção de CONTATO responsável por receber mensagens dentro da própria página*/
+#tabela_formulario {
+    text-align: left;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    th {
+        text-align: right;
+    }
+}
+
+#portfolio {
+    text-align: center;
+    font-family: Verdana;
+    color: #F6B800;
+}
+
+/*Estilização do rodapé*/
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    font-family: Verdana;
+    table {
+        width: 100%;
+    }
+}
